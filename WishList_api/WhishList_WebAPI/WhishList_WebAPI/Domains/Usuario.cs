@@ -6,6 +6,9 @@ using System.ComponentModel.DataAnnotations;
 
 namespace WhishList_WebAPI.Domains
 {
+    /// <summary>
+    /// Entidade Usuario que representa a tabela Usuarios no banco de dados
+    /// </summary>
     public partial class Usuario
     {
         public Usuario()

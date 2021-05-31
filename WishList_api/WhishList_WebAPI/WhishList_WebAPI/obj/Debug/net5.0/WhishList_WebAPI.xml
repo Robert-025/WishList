@@ -1,0 +1,130 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>WhishList_WebAPI</name>
+    </assembly>
+    <members>
+        <member name="M:WhishList_WebAPI.Controllers.DesejoController.Get">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+            http://LocalHost:5000/desejo
+        </member>
+        <member name="M:WhishList_WebAPI.Controllers.DesejoController.Post(WhishList_WebAPI.Domains.Desejo)">
+            <summary>
+            método IActionResult utilizado para cadastrar
+            </summary>
+            <param name="novoDesejo">objeto usado para armazenar os novos dados</param>
+            <returns>status code 201 - created</returns>
+            http://LocalHost:5000/desejo
+        </member>
+        <member name="M:WhishList_WebAPI.Controllers.UsuarioController.Get">
+            <summary>
+            método IActionResult para listar todos os usurarios 
+            </summary>
+            <returns>Lista de usuarios</returns>
+             http://LocalHost:5000/api/Usuario/
+        </member>
+        <member name="M:WhishList_WebAPI.Controllers.UsuarioController.Post(WhishList_WebAPI.Domains.Usuario)">
+            <summary>
+            Método IActionResult  para cadastrar um novo usuário
+            </summary>
+            <param name="cadastrarUsuario"></param>
+            <returns>status code 201- created se o novo usuário estiver com todas as informações estejam de acordo com o necessário</returns>
+            http://Localhost:5000/api/Usuario/
+        </member>
+        <member name="P:WhishList_WebAPI.Domains.Desejo.IdDesejo">
+            <summary>
+            identificador do desejo
+            </summary>
+        </member>
+        <member name="P:WhishList_WebAPI.Domains.Desejo.Descricao">
+            <summary>
+            descrição do desejo
+            </summary>
+        </member>
+        <member name="P:WhishList_WebAPI.Domains.Desejo.IdUsuario">
+            <summary>
+            identificador do usuário que está anotando o desejo
+            </summary>
+        </member>
+        <member name="T:WhishList_WebAPI.Domains.Usuario">
+            <summary>
+            Entidade Usuario que representa a tabela Usuarios no banco de dados
+            </summary>
+        </member>
+        <member name="P:WhishList_WebAPI.Domains.Usuario.IdUsuario">
+            <summary>
+            id do usuário
+            </summary>
+        </member>
+        <member name="P:WhishList_WebAPI.Domains.Usuario.Email">
+            <summary>
+            email do usuário
+            </summary>
+        </member>
+        <member name="P:WhishList_WebAPI.Domains.Usuario.Senha">
+            <summary>
+            senha do usuário com no máximo de 10 caracteres e com o mínimo de 5
+            </summary>
+        </member>
+        <member name="M:WhishList_WebAPI.Interfaces.IDesejosRepository.Cadastrar(WhishList_WebAPI.Domains.Desejo)">
+            <summary>
+            método utilizado para cadastrar um novo desejo
+            </summary>
+            <param name="novoDesejo">objeto que irá armazenar todas as informações do novo desejo</param>
+        </member>
+        <member name="M:WhishList_WebAPI.Interfaces.IDesejosRepository.Listar">
+            <summary>
+            método utilizado para listar todos os desejos
+            </summary>
+            <returns>Lista de desejos</returns>
+        </member>
+        <member name="M:WhishList_WebAPI.Interfaces.IUsuariosRepositorty.Cadastrar(WhishList_WebAPI.Domains.Usuario)">
+            <summary>
+            método para cadastrar o usuário
+            </summary>
+            <param name="cadastrarUsuario">objeto que irá armazenar as informações do novo usuário</param>
+        </member>
+        <member name="M:WhishList_WebAPI.Interfaces.IUsuariosRepositorty.Listar">
+            <summary>
+            método usado para listar todos os usuários cadastrados no sistema
+            </summary>
+            <returns>Lista de usuários</returns>
+        </member>
+        <member name="M:WhishList_WebAPI.Interfaces.IUsuariosRepositorty.Login(System.String,System.String)">
+            <summary>
+            método usado para logar no site, utilizando conta existente 
+            </summary>
+            <param name="email">objeto que está armazenado o email de usuario</param>
+            <param name="senha">objeto que está armazenando a senha de usuario</param>
+            <returns></returns>
+        </member>
+        <member name="F:WhishList_WebAPI.Repositories.UsuarioRepository.ctx">
+            <summary>
+            pega as informações da classe contexts
+            </summary>
+        </member>
+        <member name="M:WhishList_WebAPI.Repositories.UsuarioRepository.Cadastrar(WhishList_WebAPI.Domains.Usuario)">
+            <summary>
+            método para cadastrar o usuário
+            </summary>
+            <param name="cadastrarUsuario">objeto que irá armazenar as informações do novo usuário</param>
+        </member>
+        <member name="M:WhishList_WebAPI.Repositories.UsuarioRepository.Listar">
+            <summary>
+            método usado para listar todos os usuários cadastrados no sistema
+            </summary>
+            <returns>Lista de usuários</returns>
+        </member>
+        <member name="M:WhishList_WebAPI.Repositories.UsuarioRepository.Login(System.String,System.String)">
+            <summary>
+            método usado para logar no site, utilizando conta existente 
+            </summary>
+            <param name="email">objeto que está armazenado o email de usuario</param>
+            <param name="senha">objeto que está armazenando a senha de usuario</param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
