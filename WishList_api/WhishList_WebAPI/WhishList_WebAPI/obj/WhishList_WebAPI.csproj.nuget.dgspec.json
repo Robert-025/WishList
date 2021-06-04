@@ -1,25 +1,21 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\jhony\\Documents\\Senai\\Nova pasta\\WishList\\WishList_api\\WhishList_WebAPI\\WhishList_WebAPI\\WhishList_WebAPI.csproj": {}
+    "C:\\Users\\40228034876\\Desktop\\WishList\\WishList_api\\WhishList_WebAPI\\WhishList_WebAPI\\WhishList_WebAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\jhony\\Documents\\Senai\\Nova pasta\\WishList\\WishList_api\\WhishList_WebAPI\\WhishList_WebAPI\\WhishList_WebAPI.csproj": {
+    "C:\\Users\\40228034876\\Desktop\\WishList\\WishList_api\\WhishList_WebAPI\\WhishList_WebAPI\\WhishList_WebAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jhony\\Documents\\Senai\\Nova pasta\\WishList\\WishList_api\\WhishList_WebAPI\\WhishList_WebAPI\\WhishList_WebAPI.csproj",
+        "projectUniqueName": "C:\\Users\\40228034876\\Desktop\\WishList\\WishList_api\\WhishList_WebAPI\\WhishList_WebAPI\\WhishList_WebAPI.csproj",
         "projectName": "WhishList_WebAPI",
-        "projectPath": "C:\\Users\\jhony\\Documents\\Senai\\Nova pasta\\WishList\\WishList_api\\WhishList_WebAPI\\WhishList_WebAPI\\WhishList_WebAPI.csproj",
-        "packagesPath": "C:\\Users\\jhony\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jhony\\Documents\\Senai\\Nova pasta\\WishList\\WishList_api\\WhishList_WebAPI\\WhishList_WebAPI\\obj\\",
+        "projectPath": "C:\\Users\\40228034876\\Desktop\\WishList\\WishList_api\\WhishList_WebAPI\\WhishList_WebAPI\\WhishList_WebAPI.csproj",
+        "packagesPath": "C:\\Users\\40228034876\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\40228034876\\Desktop\\WishList\\WishList_api\\WhishList_WebAPI\\WhishList_WebAPI\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
-        ],
         "configFilePaths": [
-          "C:\\Users\\jhony\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\40228034876\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -85,7 +81,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     }

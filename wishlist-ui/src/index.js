@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { Route, BrowserRouter as Router, Switch, Redirect } from 'react-router-dom'
+import { Route, BrowserRouter as Router, Switch, Redirect } from 'react-router-dom';
 
 import './index.css';
 
@@ -15,7 +15,7 @@ const routing = (
     <div>
       <Switch>
         <Route exact path="/" component={App}/>  {/* Home */}
-        <Route path="/desejos" component={Desejos}/>  {/* listagemCadastro */}
+        <Route path="/desejo" component={Desejos}/>  {/* listagemCadastro */}
         <Route path="/notFound" component={NotFound}/>  {/* Not Found */}
         <Redirect to="/notFound"/>  {/* Redireciona para notFOund caso não encontre nenhuma rota */}
       </Switch>
