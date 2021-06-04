@@ -10,8 +10,12 @@ class desejos extends Component{
         }
     }
 
-    componentDidMount(){
+    buscarDesejo = () => {
+        console.log('Agora chamamos a API');
+    }
 
+    componentDidMount(){
+        
     }
 
     render(){
